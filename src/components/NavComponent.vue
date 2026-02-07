@@ -88,14 +88,14 @@ watch(isSidebarOpen, (v) => {
 
     <!-- overlay -->
     <transition name="fade">
-      <div v-if="isSidebarOpen" class="fixed inset-0 z-[60] bg-black/50" @click="closeSidebar" />
+      <div v-if="isSidebarOpen" class="fixed inset-0 z-60 bg-black/50" @click="closeSidebar" />
     </transition>
 
     <!-- sidebar drawer -->
     <transition name="drawer">
       <aside
         v-if="isSidebarOpen"
-        class="fixed top-0 right-0 z-[70] h-dvh w-[85%] max-w-sm bg-second/30 backdrop-blur-md shadow-2xl border-l border-white/10"
+        class="fixed top-0 right-0 z-70 h-dvh w-[85%] max-w-sm bg-second/30 backdrop-blur-md shadow-2xl border-l border-white/10"
         role="dialog"
         aria-modal="true"
       >
