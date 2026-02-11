@@ -62,30 +62,126 @@ import { FileCheck, Motorbike, Clock8, Clock11, Star, Sparkles, Search } from 'l
       <!-- right side end  -->
     </div>
   </div>
-  <!-- all offers start  -->
+  <!-- restourant intro end  -->
+  <!-- all fillials start  -->
   <div class="w-full">
-    <div class="flex justify-center items-center">
-      <!-- header  -->
-      <div>
-        <h1 class="flex justify-center gap-1 md:text-3xl text-xs font-bold px-4 py-2">
-          <Sparkles class="text-primary-second" /> All Offers from Eskisehir Tiresto
-        </h1>
+    <!-- filials cards start -->
+    <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- header -->
+      <div class="flex items-end justify-between gap-4 mb-6">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">Şubelerimiz</h2>
+          <p class="text-sm text-slate-500 mt-1">
+            Size en yakın şubeyi seçip haritada yol tarifi alabilirsiniz.
+          </p>
+        </div>
       </div>
-      <!-- search bar  -->
-      <div class="flex justify-end items-center m-2">
-        <form action="" class="relative">
-          <input
-            type="search"
-            class="px-4 py-2 text-xs text-center bg-second text-gray-400 rounded-2xl border border-primary-second focus:outline outline-primary/30 focus:border-primary focus:ring ring-primary/20"
-            placeholder="Search from menu..."
-          />
-          <button type="submit" class="absolute left-0 p-2 text-gray-400">
-            <Search class="w-4 h-4" />
-          </button>
-        </form>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+        <!-- filial card -->
+        <a
+          href="https://maps.app.goo.gl/DVEURyGJbd6BA48v7"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary/40"
+        >
+          <!-- image -->
+          <div class="relative aspect-video w-full overflow-hidden">
+            <img
+              src="@/assets/images/restourants/1.jpg"
+              alt="Bağlar şubesi"
+              loading="lazy"
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+
+            <!-- gradient overlay -->
+            <div
+              class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent"
+            ></div>
+
+            <!-- badge -->
+            <div class="absolute left-3 top-3">
+              <span
+                class="inline-flex items-center rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-slate-900 backdrop-blur"
+              >
+                Açık
+              </span>
+            </div>
+
+            <!-- title on image -->
+            <div class="absolute bottom-3 left-3 right-3">
+              <h3 class="text-base font-bold text-white drop-shadow">Bağlar Şubesi</h3>
+              <p class="text-xs text-white/85 mt-0.5">Haritada görüntüle ve yol tarifi al</p>
+            </div>
+          </div>
+
+          <!-- content -->
+          <div class="p-4">
+            <div class="flex items-center justify-between gap-3">
+              <div class="min-w-0">
+                <p class="text-sm font-semibold text-slate-900 truncate">Bağlar Şubesi</p>
+                <p class="text-xs text-slate-500 truncate">Google Maps</p>
+              </div>
+
+              <span
+                class="shrink-0 inline-flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-xs font-semibold text-slate-900 transition-colors group-hover:bg-primary group-hover:text-white group-hover:border-primary"
+              >
+                Haritada aç
+              </span>
+            </div>
+          </div>
+        </a>
+
+        <!-- filial card -->
+        <a
+          href="https://maps.app.goo.gl/Ke7HQNPNk27NugAv6"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-primary/40"
+        >
+          <div class="relative aspect-video w-full overflow-hidden">
+            <img
+              src="@/assets/images/restourants/2.jpg"
+              alt="Adalar şubesi"
+              loading="lazy"
+              class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div
+              class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent"
+            ></div>
+
+            <div class="absolute left-3 top-3">
+              <span
+                class="inline-flex items-center rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-slate-900 backdrop-blur"
+              >
+                Açık
+              </span>
+            </div>
+
+            <div class="absolute bottom-3 left-3 right-3">
+              <h3 class="text-base font-bold text-white drop-shadow">Adalar Şubesi</h3>
+              <p class="text-xs text-white/85 mt-0.5">Haritada görüntüle ve yol tarifi al</p>
+            </div>
+          </div>
+
+          <div class="p-4">
+            <div class="flex items-center justify-between gap-3">
+              <div class="min-w-0">
+                <p class="text-sm font-semibold text-slate-900 truncate">Adalar Şubesi</p>
+                <p class="text-xs text-slate-500 truncate">Google Maps</p>
+              </div>
+
+              <span
+                class="shrink-0 inline-flex items-center justify-center rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-xs font-semibold text-slate-900 transition-colors group-hover:bg-primary group-hover:text-white group-hover:border-primary"
+              >
+                Haritada aç
+              </span>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
+    <!-- filials cards end -->
   </div>
-  <!-- all offers end  -->
-  <!-- restourant intro end  -->
+  <!-- all fillials end  -->
 </template>
