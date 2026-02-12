@@ -7,17 +7,19 @@
       ></div>
       <!-- left side end  -->
       <!-- right side start  -->
-      <div class="md:h-124 h-164 flex flex-col justify-center items-center relative">
+      <div
+        class="md:h-124 h-164 sm:border-none sm:outline-none outline outline-primary-second/50 border-2 border-primary-second rounded-xl flex flex-col justify-center items-center relative"
+      >
         <router-link
           to="/"
-          class="absolute text-xs flex gap-2 top-2 left-2 text-primary hover:underline"
+          class="absolute text-xs flex gap-2 top-2 left-2 text-primary-second hover:underline"
           ><ArrowLeftToLine class="w-4 h-4" /> Back to Home</router-link
         >
         <!-- header start  -->
         <div class="flex justify-center items-center flex-col">
           <img src="@/assets/images/logo.png" class="w-24" alt="" />
           <h1 class="text-3xl font-bold py-4">
-            Login your <span class="text-primary">Tiresto</span> <br />
+            Login your <span class="text-primary-second">Tiresto</span> <br />
             account
           </h1>
         </div>
@@ -44,7 +46,7 @@
               <router-link to="/auth/forgot-password" class="text-xs text-primary"
                 >Forgot password ?</router-link
               >
-              <router-link to="/auth/forgot-password" class="text-xs text-primary"
+              <router-link to="/auth/forgot-password" class="text-xs text-primary-second"
                 >Create account</router-link
               >
             </div>
