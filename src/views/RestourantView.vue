@@ -190,7 +190,6 @@ import { FileCheck, Motorbike, Clock8, Clock11, Star, Sparkles, Search } from 'l
         width="600"
         height="450"
         style="border: 0"
-        allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
