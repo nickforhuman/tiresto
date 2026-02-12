@@ -182,6 +182,20 @@ import { FileCheck, Motorbike, Clock8, Clock11, Star, Sparkles, Search } from 'l
       </div>
     </div>
     <!-- filials cards end -->
+    <!-- map start  -->
+    <div class="w-full flex justify-center items-center">
+      <iframe
+        class="w-full m-4 rounded-xl border border-primary-second outline-2 outline-primary-second/50"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24527.045064755366!2d30.472485910839836!3d39.78723409999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cc15e64d474793%3A0x728e78a64b3325ee!2zU2HEn2zEsWsgUGlkZSBCYcSfbGFy!5e0!3m2!1str!2str!4v1770899156486!5m2!1str!2str"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <!-- map end  -->
   </div>
   <!-- all fillials end  -->
 </template>
