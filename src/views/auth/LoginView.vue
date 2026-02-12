@@ -3,13 +3,14 @@
     <div class="grid md:grid-cols-2 grid-cols-1 rounded-xl shadow-xl w-full m-4 bg-second">
       <!-- left side start  -->
       <div
-        class="h-124 bg-primary-second relative bg-[url('@/assets/images/auth/login.png')] bg-contain bg-no-repeat bg-center"
+        class="h-124 sm:flex hidden bg-primary-second relative bg-[url('@/assets/images/auth/login.png')] bg-contain bg-no-repeat bg-center"
       ></div>
       <!-- left side end  -->
       <!-- right side start  -->
-      <div class="flex flex-col justify-center items-center">
+      <div class="h-124 flex flex-col justify-center items-center">
         <!-- header start  -->
         <div class="flex justify-center items-center flex-col">
+          <img src="@/assets/images/logo.png" class="w-24" alt="" />
           <h1 class="text-3xl font-bold">
             Login your <span class="text-primary">Tiresto</span> <br />
             account
@@ -29,6 +30,7 @@
             <label for="password"> * Password </label>
             <input
               type="password"
+              placeholder="***********"
               class="text-gray-400 px-4 py-2 bg-second border border-primary-second outline outline-primary-second rounded-xl"
             />
           </div>
@@ -43,7 +45,7 @@
             </div>
             <button
               type="submit"
-              class="w-64 px-4 py-2 rounded-xl bg-primary-second text-second font-bold"
+              class="w-64 px-4 py-2 rounded-xl bg-primary-second text-second hover:bg-second hover:text-primary-second cursor-pointer font-bold"
             >
               Login
             </button>
