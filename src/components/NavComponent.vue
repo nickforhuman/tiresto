@@ -55,11 +55,11 @@ watch(isSidebarOpen, (v) => {
             </router-link>
 
             <router-link
-              to="/auth"
+              to="/auth/login"
               class="ml-2 flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-second font-bold hover:brightness-110 transition"
             >
               <CircleUserRound class="w-4 h-4" />
-              Login/Signup
+              login
             </router-link>
           </nav>
 
@@ -131,12 +131,12 @@ watch(isSidebarOpen, (v) => {
             </router-link>
 
             <router-link
-              to="/auth"
+              to="/auth/login"
               class="mt-2 flex items-center justify-center gap-2 px-4 py-3 rounded-2xl bg-primary text-second font-bold hover:brightness-110 transition"
               @click="closeSidebar"
             >
               <CircleUserRound class="w-4 h-4" />
-              Login/Signup
+              login
             </router-link>
           </div>
 
