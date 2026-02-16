@@ -56,7 +56,7 @@
               >Forgot password ?</router-link
             >
             <router-link
-              to="/auth/forgot-password"
+              to="/auth/register"
               class="text-xs text-primary font-semibold hover:underline transition-all"
               >Create account</router-link
             >
